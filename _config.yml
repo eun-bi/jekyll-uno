@@ -2,9 +2,15 @@
 title: Now Or Never
 description: '개발 일지'
 url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: 
-# google_analytics: 'UA-XXXXXX-X'
+baseurl:
 # disqus_shortname: 'your-disqus-name'
+
+# 댓글 기능을 위한 disqus 설정
+disqus_url: 'https://https-eun-bi-github-io-2.disqus.com'
+disqus_id: 'https-eun-bi-github-io-2.'
+
+# 방문자 통계를 위한 google_analytics
+google_analytics: 'UA-131268639-1'
 
 author:
   name: 'eunbi'
