@@ -1,6 +1,6 @@
 # Site settings
-title: 개발일지
-description: 'Now Or Never'
+title: Now Or Never
+description: '개발 일지'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: 
 # google_analytics: 'UA-XXXXXX-X'
