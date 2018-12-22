@@ -3,6 +3,7 @@ title:  "[Android] xml에서 opacity 부여하기"
 date:   2018-11-24 17:30:24
 categories: [Android]
 tags: [Android]
+comments: true
 ---
 
 100% : FF  
