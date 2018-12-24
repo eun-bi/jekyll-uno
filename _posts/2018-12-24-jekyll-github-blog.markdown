@@ -34,9 +34,9 @@ comments: true
 - **markdown 문법 익히기**
 : 블로그 게시글 작성을 위해 생소한 markdown 문법을 익히는 중.. 에디터는 Atom 사용중이다.
 - **댓글 기능 적용을 위한 Disqus 및 페이스북 플러그인 사용**
-: 기본적으로 댓글 기능이 제공되어 있지 않은 테마라 Disqus  와 페이스북 플러그인으로 댓글 기능을 추가하였다.
+: 기본적으로 댓글 기능이 제공되어 있지 않은 테마라 [Disqus](https://disqus.com/) 와 [페이스북 플러그인](https://developers.facebook.com/docs/plugins/comments/#configurator)으로 댓글 기능을 추가하였다.
 - **방문자 통계를 위한 Google Analytics 사용**
-: Jekyll 은 자체적으로 방문자 통계를 제공해주지 않기 때문에 가시적으로 방문자 통계를 제공하는 애널리틱스를 사용해 확인할 수 있게 되었다.
+: Jekyll 은 자체적으로 방문자 통계를 제공해주지 않기 때문에 가시적으로 방문자 통계를 제공하는 [애널리틱스](https://analytics.google.com/analytics)를 사용해 확인할 수 있게 되었다.
 - **카테고리 생성**
 : 내가 적용한 테마는 tag 기능을 제공해주지만 카테고리 기능은 제공해주지 않아서 따로 생성하였다.
 - **폰트 변경**
