@@ -23,7 +23,7 @@ finished with non-zero exit value 2
 결론은 라이브러리 문제인걸로 .. !
 
 
-결국은 어떻게 해서 해결하긴 했는데 왜 해결됐는지도 의문
+결국은 어떻게 해서 해결하긴 했는데 왜 해결됐는지도 의문  
 `build.gradle 에 defaultConfig` 안에  **multiDexEnabled true**  를 넣어주었더니 간단히 해결
 
 

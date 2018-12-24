@@ -6,7 +6,7 @@ tags: [Android]
 comments: true
 ---
 
-구글 플레이 스토어에 업로드하기 위해서는
+구글 플레이 스토어에 업로드하기 위해서는  
 기존에 빌드될 때 생성되는 debug apk 가 아닌 Release apk 가 필요하다.
 
 Android Studio 에서
@@ -18,7 +18,7 @@ key가 생성될 path, password, 개발자 정보를 적은 후 OK
 
 또한, 프로젝트 파일 > app 경로에 apk 파일이 추출된 것을 확인할 수 있음!
 
-![image](http://eun-bi.github.io/images/posting/1224_2.PNG)
+![image](http://eun-bi.github.io/images/posting/1224_2.png)
 
 
 **successfully !**
@@ -27,5 +27,5 @@ key가 생성될 path, password, 개발자 정보를 적은 후 OK
 추후에는 이미 key store 를 등록했으므로, path 랑 password을 입력하면 됨
 
 ---
-기존 포스팅에서 옮겨옴
+기존 포스팅에서 옮겨옴  
 (<https://blog.naver.com/uko02111/221091096750>)
