@@ -16,39 +16,39 @@ comments: true
 
 **가상환경 실행**  
 
-```command
+```python
 [가상환경명]\Scripts\activate
 ```  
 
 
 **django-admin을 이용해 프로젝트 생성**  
 
-```command
+```python
 django-admin startproject [프로젝트명]
 ```  
 
 
 **Migrations 파일 생성**  
 
-```command
+```python
 python manage.py makemigrations
 ```  
 
 **Migration 을 데이터베이스에 저장 (실제 테이블 생성 및 수정)**  
 
-```command
+```python
 python manage.py migrate
 ```  
 
 **생성한 프로젝트 내에 애플리케이션 생성**  
 
-```command
+```python
 python manage.py startapp [애플리케이션명]
 ```  
 
 **서버 실행**  
 
-```command
+```python
 python manage.py runserver
 ```  
 

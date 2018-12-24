@@ -14,7 +14,7 @@ Django는 기본적으로 sqlite 데이터베이스를 사용하는데,
 
 먼저, `pymysql` 을 설치해준다.  
 
-```command
+```python
 pip install pymysql  
 ```  
 
@@ -33,7 +33,7 @@ pymysql.install_as_MySQLdb()
 이 경우, 위에 작성한 데이터베이스명과 동일한 데이터베이스가 존재하지 않을 시에 에러가 발생한다 ..  
 따라서 MySQL Workbench에서 미리 데이터베이스를 생성해줘야 한다.  
 
-```command
+```python
 python manage.py makemugrations
 python manage.py migrate
 ```  
