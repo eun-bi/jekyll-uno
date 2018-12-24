@@ -1,6 +1,6 @@
 ---
 title:  "[Android] xml에서 opacity 부여하기"
-date:   2018-11-24 17:30:24
+date:   2016-12-10 17:30:24
 categories: [Android]
 tags: [Android]
 comments: true
@@ -28,3 +28,8 @@ comments: true
 0% : 00  
 
 색상코드 6자리 앞에 두 자리를 붙여주게 되면 opacity를 줄 수 있다.
+
+
+---
+기존 포스팅에서 옮겨옴
+(<https://blog.naver.com/uko02111/220882369071>)
