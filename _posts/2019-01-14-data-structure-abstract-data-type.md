@@ -6,8 +6,8 @@ tags: [자료구조]
 comments: true
 ---
 
-**추상자료형 (Abstract Data Type) (ADT) 이란 ?**  
 
+**추상자료형 (Abstract Data Type) (ADT) 이란 ?**  
 구체적인 기능의 완성과정을 언급하지 않고, 순수하게 기능이 무엇인지를 나열한 것  
 
 
@@ -24,7 +24,7 @@ comments: true
 -지폐와 동전의 저장이 가능한 지갑 구조체  
 :Wallet 이라는 자료형의 정의  
 
-```Java
+```c
  typedef struct _wallet {
     int coin100Num;   // 100원짜리 동전의 수
     int bill5000Num;  // 5,000원짜리 지폐의 수
@@ -36,14 +36,14 @@ comments: true
 -Wallet 을 기반으로 제공할 수 있는 기능 관련 연산  
 :구조체 정의만으로 자료형의 정의가 완성되는 것이 아님. 구조체에서 필요로 하는 연산을 함수를 이용해 정의해야  자료형의 정의가 완성됨  
 
-```Java
+```c
 int TakeOutMoney(Wallet * pw, int coinNum, int billNum); // 돈을 꺼내는 연산
 void PutMoney(Wallet * pw, int coinNum, int billNum);    // 돈을 넣는 연산
 ```  
 
 **구조체 Wallet의 정의는 ADT에 포함시켜야하는가?**  
 
-```Java
+```c
 int main(void){
    Wallet myWallet;
    PutMoney(&myWallet, 5, 10);
@@ -59,5 +59,5 @@ int main(void){
 ---  
 
 **Reference**  
-- 책 <윤성우의 열혈 자료구조>  
-(2016-1학기에 들었던 자료구조 수업 책 복습 중 )
+- 책 <윤성우의 열혈자료구조>  
+(2016-1학기에 들었던 자료구조 수업 책 복습 중 )  
