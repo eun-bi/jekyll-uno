@@ -10,11 +10,11 @@ comments: true
 
 ---
 
-####**UML(Unified Modeling Language)**
+#### **UML(Unified Modeling Language)**  
 시스템을 시각화하거나 요구 사항 명세서 또는 설계를 문서화하기 위한 표현 방법으로 클래스나 인터페이스의 `관계를 표현`하기 위해 사용  
 
 
-####**클래스 다이어그램**  
+#### **클래스 다이어그램**  
 클래스나 인스턴스, 인터페이스 등 간의 `정적인 관계`를 표현  
 
 ![image1](http://eun-bi.github.io/images/posting/0124_1.PNG)  
@@ -22,7 +22,7 @@ comments: true
 
 **상속(extends) 관계**  
 
-```Java
+```java
 /* 상위 클래스 (부모 클래스) */
 abstract class ParentClass{
   int field1;
@@ -54,7 +54,7 @@ abstract class ParentClass{
 
 
 **인터페이스 구현(implements)**  
-```Java
+```java
 interface Printable{
   abstract void print();
   abstract void newPage();
@@ -76,7 +76,7 @@ PrintClass 클래스가 Printable `인터페이스`를 구현하고 있으므로
 
 
 **집합(Aggregation) 관계**  
-```Java
+```java
 class Color{
   // ...
 }
@@ -95,7 +95,7 @@ class Basket{
 Bascket 클래스는 Fruit 클래스의 인스턴스를 가지며 Fruit 클래스는 Color 클래스의 인스턴스를 가진다. 가지고 있는 인스턴스 변수를 클래스 다이어그램에 작성해줘야 하며 `마름모`가 붙은 실선으로 표현한다.  
 
 **액세스 제어**  
-```Java
+```java
 class Something{
   private int priateField;
   protected int protectedField;
@@ -122,9 +122,9 @@ class Something{
 ![image6](http://eun-bi.github.io/images/posting/0124_6.PNG)  
 클래스간의 관계를 나타내기 위해 클래스를 연결하고 그 위에 관계를 나타내는 이름을 붙이며 삼각형 방향으로 해석한다.  
 
-####**시퀀스 다이어그램**  
+#### **시퀀스 다이어그램**  
 프로그램이 동작할 떄, 객체들 사이의 메소드들이 어떤 순서로 실행(호출) 되는지를 표현한 것으로 `동적인 관계`를 표현한다.  
-```Java
+```java
 class Client{
   Server server = new Server();
   void work(){
@@ -155,7 +155,7 @@ class Device{
     // ...
   }
 }
-```  
+```   
 ![image7](http://eun-bi.github.io/images/posting/0124_7.PNG)  
 각각의 인스턴스는 직사각형 안에 `콜론 :` 뒤에 클래스명을 표기하며 인스턴스 아래 점선은 생명선으로 인스턴스가 존재하는 동안 존재한다. 객체가 cpu를 얻어서 실행이 되어 활동하는 동안에는 직사각형으로 표시한다. 또한, 객체 간 호출과 반환을 화살표로 표시한다.  
 
