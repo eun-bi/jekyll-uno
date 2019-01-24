@@ -39,7 +39,16 @@ comments: true
 - **방문자 통계를 위한 Google Analytics 사용**
 : Jekyll 은 자체적으로 방문자 통계를 제공해주지 않기 때문에 가시적으로 방문자 통계를 제공하는 [애널리틱스](https://analytics.google.com/analytics)를 사용해 확인할 수 있게 되었다.
 - **카테고리 생성**
-: 내가 적용한 테마는 tag 기능을 제공해주지만 카테고리 기능은 제공해주지 않아서 따로 생성하였다.
+: 내가 적용한 테마는 tag 기능을 제공해주지만 카테고리 기능은 제공해주지 않아서 따로 생성하였다.  
+
+**+ 19.01.24 추가**  
+- **검색엔진에 등록**  
+: Jekyll 로 만든 깃허브 블로그는 검색할 시에 안 나와서 따로 등록을 해줘야 한다.. 수동으로 하나하나 설정해가는 재미 ^^ .. 그래도 다행인 것을 필요한 `sitemap.xml` 과 `feed.xml`파일이 내가 적용한 테마에는 생성되어 있어서 따로 작성하지 않아도 되었다. google에서 검색할 경우 노출되게 하기 위해 [Google Search Console](https://search.google.com/search-console/about?hl=ko&utm_source=wmx&utm_medium=wmx-welcome)에 사이트맵을 등록하였다.
+![image1](http://eun-bi.github.io/images/posting/0124_9.PNG)  
+또한, 네이버에서도 검색이 가능하도록 [네이버 웹마스터도구](https://search.google.com/search-console/about?hl=ko&utm_source=wmx&utm_medium=wmx-welcome)에 사이트를 등록하였다. (아직 등록 확인 중..)
+
+- **광고를 위한 Google AdSense 사용**  
+: 하나 하나 직접 추가해서 구현해야한다는 점이 조금은 귀찮을 수도 있지만 다양하게 확장할 수 있다는 점이 깃허브 블로그의 가장 큰 장점인 것 같다. 직접 광고도 추가해서 조금이나마 수익을 얻을 수도 있다는 것을 알아 추가하기로..! [Google AdSense](https://www.google.com/intl/ko_kr/adsense/start/#/?modal_active=none)에서 생성한 코드를 html 파일의 head 사이에 추가해주었다. (1일 정도 소요된다해서 확인 중..)
 
 **+ (추가 예정)**
 
