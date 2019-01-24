@@ -1,6 +1,6 @@
 ---
-title:  "[Android] "Bitmap too large to be uploaded into a texture" 에러 해결"
-date:   2016-10-12 2:43:24
+title:  "[Android] Bitmap too large to be uploaded into a texture 에러 해결"
+date:   2016-10-12 02:43:24
 categories: [Android]
 tags: [Android]
 comments: true
