@@ -6,7 +6,10 @@ tags: [디자인패턴]
 comments: true
 ---
 
-### **Iterator 패턴 (반복자)**  
+---
+
+#### **Iterator 패턴 (반복자)**  
+
 무엇인가 많이 모여있는 것 중에서 하나씩 `순서대로` 끄집어내어 열거하면서 전체를 처리하는 일을 할 때 사용  
 - for 문에서 여러 원소가 모여있는 배열의 각 원소를 차례대로 선택하는데 사용되는 루프 변수 i의 역할  
 
@@ -21,8 +24,8 @@ comments: true
 책꽂이에 책을 넣은 후 순서대로 하나씩 끄집어 내어 책 이름을 표시하는 프로그램  
 ![image2](http://eun-bi.github.io/images/posting/0127_1.PNG)  
 - BookShelf 클래스 : 책꽂이 (Aggregate 구현)
-- BookShelfIterator 클래스 : 책꽂이에서 책을 하나씩 끄집어낼 때 사용하는 Iterator
->  code : [Github](https://github.com/eun-bi/java-design-patterns/tree/master/Iterator/src/example)  
+- BookShelfIterator 클래스 : 책꽂이에서 책을 하나씩 끄집어낼 때 사용하는 Iterator  
+- code : [Github](https://github.com/eun-bi/java-design-patterns/tree/master/Iterator/src/example)  
 
 
 **장점 및 특징**  
@@ -33,4 +36,4 @@ comments: true
 
 ---
 **Reference**
-- 영진닷컴, 『Java 언어로 배우는 디자인 패턴 입문』
+- 영진닷컴, 『Java 언어로 배우는 디자인 패턴 입문』  
