@@ -8,7 +8,6 @@ comments: true
 
 
 #### **Adapter 패턴**  
-
 이미 제공되어 있는 것을 그대로 사용할 수 없는 경우 `이미 제공되어 있는 것`과 `필요한 것` 사이의 간격을 메울 때 사용  
 
 - 상속(inheritance) 을 이용한 Adapter 패턴
@@ -59,7 +58,7 @@ code : [Github (application1_inheritance)](https://github.com/eun-bi/java-design
 
 - java.util.Properties (Adaptee) : 이미 제공되는 것  
 - FileIO 인터페이스 (Target) : 필요한 것 (인터페이스)  
-- FileProperties (Adapter) :  필요한 메소드는 FileIO에 정의한 메소드들인데 이미 제공되는 클래스인 java.util.Properties에서 제공하므로 Properties 클래스의 메소드를 재활용 함. 이 때, FileIO 인터페이스를 구현(implements)하고 Properties 클래스를 상속(extends)받아 구현
+- FileProperties (Adapter) :  필요한 메소드는 FileIO에 정의한 메소드들인데 이미 제공되는 클래스인 java.util.Properties에서 제공하므로 Properties 클래스의 메소드를 재활용 함. 이 때, FileIO 인터페이스를 구현(implements)하고 Properties 클래스를 상속(extends)받아 구현  
 
 2. 위임을 이용한 Adapter 패턴  
 ![image6](http://eun-bi.github.io/images/posting/0129_6.PNG)  
