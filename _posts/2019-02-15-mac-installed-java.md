@@ -1,5 +1,5 @@
 ---
-title:  "[JAVA] max에 java 설치"
+title:  "[JAVA] mac os에 java 설치하기"
 date:   2019-02-15 22:34:24
 categories: [JAVA]
 tags: [JAVA]
